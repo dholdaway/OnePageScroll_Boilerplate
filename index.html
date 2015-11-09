@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>My onepage boilerplate</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <link href="css/onepage-scroll.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+    	  <div class="allPages">
+          <section class="pageOne">
+            <div class="pageBox">
+              <h1>FIRST SCROLL PAGE</h1>
+              <!-- Page content goes here -->
+          	</div>
+          </section>
+    	  <section class="pageTwo">
+    	  	<div class="pageBox">
+              <h1>SECOND SCROLL PAGE</h1>
+              <!-- Page content goes here -->
+    	    </div>
+          </section>
+    	  <section class="pageThree">
+    	  	<div class="pageBox">
+              <h1>THIRD SCROLL PAGE</h1>
+              <!-- Page content goes here -->
+      	    </div>
+          </section>
+          <section class="pageFour">
+    	  	<div class="pageBox">
+              <h1>FOURTH SCROLL PAGE</h1>
+             <!-- Page content goes here -->
+      	    </div>
+          </section>
+    	</div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(".allPages").onepage_scroll({
+                loop: true
+            })
+        })
+    </script>
+</body>
+
+
+</html>

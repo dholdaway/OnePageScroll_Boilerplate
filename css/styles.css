@@ -1,0 +1,21 @@
+.wrapper {
+	height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+    font-size: 150px;
+	margin: 500px;
+}
+
+.allPages section.pageOne, section.pageThree {
+	background:#FF6440;
+	color:#175C99;
+}
+
+.allPages section.pageTwo, section.pageFour {
+	background:#175C99;
+	color:#FF6440;
+}
